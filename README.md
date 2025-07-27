@@ -147,24 +147,6 @@ export default Spinner;
 
 ---
 
-## 🔗 Assets
 
-All assets including logos and hero banners are located in the [Video Kit](https://jsm.dev/react25-kit).
 
-<a href="https://jsm.dev/react25-kit" target="_blank">
-  <img src="public/readme/videokit.png" alt="Video Kit Banner">
-</a>
-
----
-
-## 🚀 More
-
-Explore the [JavaScript Mastery PRO course](https://jsm.dev/react25-jsmpro) for advanced tutorials.
-
-<a href="https://jsm.dev/react25-jsmpro" target="_blank">
-  <img src="public/readme/jsmpro.png" alt="JSM Pro">
-</a>
-
----
-
-### ✨ Made with ❤️ by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
+### ✨ Made with ❤️ by Suchet Indrakanty
