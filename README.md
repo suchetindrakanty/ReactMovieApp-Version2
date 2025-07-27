@@ -2,9 +2,6 @@
 
 A sleek, responsive movie browsing app built with **React.js**, **Appwrite**, and **Tailwind CSS**. This project leverages the **TMDB API** to display trending movies, search functionality, and more.
 
-<a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank">
-  <img src="public/readme/hero.png" alt="Project Banner" />
-</a>
 
 <div align="center">
   <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" />
