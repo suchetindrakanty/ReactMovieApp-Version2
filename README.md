@@ -1,133 +1,170 @@
-# 🎬 Movie App
-
-A sleek, responsive movie browsing app built with **React.js**, **Appwrite**, and **Tailwind CSS**. This project leverages the **TMDB API** to display trending movies, search functionality, and more.
-
-
 <div align="center">
-  <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" />
-  <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" />
+  <br />
+ 
+  <br />
+  <div>
+    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+
+  <h3 align="center">Movie App Project</h3>
+
+  <div align="center">
+    Learn to build this application step-by-step on the <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube channel.
+  </div>
 </div>
-
----
-
-## 📽️ Tutorial
-
-Watch the complete build walkthrough on **JavaScript Mastery** YouTube channel:
-
-> 📺 [Watch Tutorial](https://www.youtube.com/watch?v=dCLhUialKPQ)  
-> 👨‍👩‍👧‍👦 [Join the JSM Discord (50k+ devs)](https://discord.com/invite/n6EdbFJ)
 
 ---
 
 ## 📋 Table of Contents
 
-1. [Introduction](#introduction)  
-2. [Tech Stack](#tech-stack)  
-3. [Features](#features)  
-4. [Getting Started](#getting-started)  
-5. [Code Snippets](#code-snippets)  
-6. [Assets](#assets)  
-7. [More Resources](#more-resources)  
+1. [Introduction](#introduction)
+2. [Tech Stack](#tech-stack)
+3. [Features](#features)
+4. [Quick Start](#quick-start)
+5. [Snippets](#snippets)
+6. [Assets](#assets)
+7. [More](#more)
+
+---
+
+## 🚨 Tutorial
+
+> Follow this video tutorial on YouTube: [Watch Here](https://www.youtube.com/watch?v=dCLhUialKPQ)
+
+<a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank">
+  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" alt="YouTube Tutorial" />
+</a>
 
 ---
 
 ## 🤖 Introduction
 
-This app allows users to:
+A modern, responsive movie browser built with **React.js**, **Appwrite**, **TailwindCSS**, and powered by the **TMDB API**.
 
-- Browse trending movies
-- Search by title
-- View movie ratings and metadata
-- Experience a beautiful and modern UI
+Easily search, explore trending titles, and view metadata with a smooth and sleek user interface.
 
-Built with a fully responsive layout and clean architecture to promote maintainability and scalability.
+Join our 50k+ dev community on [Discord](https://discord.com/invite/n6EdbFJ) if you get stuck or need help.
+
+<a href="https://discord.com/invite/n6EdbFJ" target="_blank">
+  <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" />
+</a>
 
 ---
 
 ## ⚙️ Tech Stack
 
-- **React.js** – UI development with reusable components  
-- **Appwrite** – Backend services for database, storage, and auth  
-- **Tailwind CSS** – Utility-first CSS framework  
-- **TMDB API** – Movie database API for content  
-- **Vite** – Fast build tool and dev server  
-- **React-Use** – Collection of useful React hooks  
+* **Appwrite** – Backend as a Service (auth, DB, storage)
+* **React.js** – Reusable component-based UI
+* **React-use** – Essential utility hooks
+* **Tailwind CSS** – Utility-first styling
+* **Vite** – Next-gen frontend tooling (HMR + fast build)
 
 ---
 
 ## 🔋 Features
 
-- 🔍 **Search Movies**  
-- 📈 **Trending Algorithm**  
-- 📱 **Fully Responsive UI**  
-- 🎨 **Modern UX**  
-- ♻️ **Reusable Components**
+* 🔍 **Search Movies**
+* 📊 **Trending Algorithm**
+* 📱 **Responsive Design**
+* 🖌 **Modern UI/UX**
+* ♻️ **Reusable Components**
 
 ---
 
-## 🤸 Getting Started
+## 🤸 Quick Start
 
-### ✅ Prerequisites
+### Prerequisites
 
-Make sure you have the following installed:
+* Node.js
+* npm
+* Git
 
-- [Git](https://git-scm.com/)  
-- [Node.js & npm](https://nodejs.org/)
-
-### 🧱 Clone the Repo
+### Clone & Setup
 
 ```bash
 git clone https://github.com/adrianhajdin/react-movies.git
 cd react-movies
-📦 Install Dependencies
-bash
-Copy
-Edit
 npm install
-🔐 Setup Environment Variables
-Create a .env.local file in the root:
+```
 
-env
-Copy
-Edit
+### Environment Variables
+
+Create a `.env.local` file:
+
+```env
 VITE_TMDB_API_KEY=your_tmdb_api_key
-VITE_APPWRITE_PROJECT_ID=your_appwrite_project_id
-VITE_APPWRITE_DATABASE_ID=your_appwrite_database_id
-VITE_APPWRITE_COLLECTION_ID=your_appwrite_collection_id
-Get your API keys from TMDB and Appwrite.
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_db_id
+VITE_APPWRITE_COLLECTION_ID=your_collection_id
+```
 
-🚀 Run the App
-bash
-Copy
-Edit
+### Run Locally
+
+```bash
 npm run dev
-Open your browser and go to: http://localhost:5173
+```
 
-🕸 Code Snippets
-You can explore useful code snippets in the /components, /utils, and /styles directories of this project.
+Open: [http://localhost:5173](http://localhost:5173)
 
-Example spinner component:
+---
 
-jsx
-Copy
-Edit
-import React from 'react'
+## 🕸️ Snippets
 
-const Spinner = () => {
-  return (
-    <div role="status">
-      <svg
-        className="w-8 h-8 text-gray-200 animate-spin fill-indigo-600"
-        viewBox="0 0 100 101"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M100..." fill="currentColor" />
-        <path d="M93..." fill="currentFill" />
-      </svg>
-      <span className="sr-only">Loading...</span>
-    </div>
-  );
-};
+Sample from `index.css`
 
+```css
+body {
+  font-family: "DM Sans", serif;
+  background: #030014;
+}
+main {
+  min-height: 100vh;
+  background-color: #030014;
+}
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+```
+
+Sample `Spinner.jsx`
+
+```jsx
+const Spinner = () => (
+  <div role="status">
+    <svg className="w-8 h-8 animate-spin text-indigo-600" viewBox="0 0 100 101">
+      <circle cx="50" cy="50" r="45" stroke="currentColor" strokeWidth="10" fill="none" />
+      <path fill="currentFill" d="M93.9676 39.0409..." />
+    </svg>
+    <span className="sr-only">Loading...</span>
+  </div>
+);
 export default Spinner;
+```
+
+---
+
+## 🔗 Assets
+
+All assets including logos and hero banners are located in the [Video Kit](https://jsm.dev/react25-kit).
+
+<a href="https://jsm.dev/react25-kit" target="_blank">
+  <img src="public/readme/videokit.png" alt="Video Kit Banner">
+</a>
+
+---
+
+## 🚀 More
+
+Explore the [JavaScript Mastery PRO course](https://jsm.dev/react25-jsmpro) for advanced tutorials.
+
+<a href="https://jsm.dev/react25-jsmpro" target="_blank">
+  <img src="public/readme/jsmpro.png" alt="JSM Pro">
+</a>
+
+---
+
+### ✨ Made with ❤️ by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery)
