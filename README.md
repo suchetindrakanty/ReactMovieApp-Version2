@@ -52,10 +52,6 @@
 - **API**: The Movie Database (TMDB)
 - **Build Tool**: Vite
 
-## 📸 Screenshots
-
-![Home Screen](public/readme/hero.png)
-![Search Functionality](public/readme/jsmpro.png)
 
 ## 🚀 Installation
 
